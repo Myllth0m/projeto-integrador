@@ -1,0 +1,30 @@
+header#main-header {
+  background: #252525;
+  height: 70px;
+}
+
+header#main-header .header-content {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header#main-header .header-content a {
+  color: #FFF;
+  font-size: 24px;
+  border: 1px solid #FFF;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+header#main-header .header-content a#criar-conta {
+  color: #252525;
+  background: #FFF;
+  margin-right: 6px;
+}
